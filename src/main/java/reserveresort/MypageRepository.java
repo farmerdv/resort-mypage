@@ -8,6 +8,5 @@ import java.util.List;
 public interface MypageRepository extends CrudRepository<Mypage, Long> {
 
     List<Mypage> findByReserveId(String reserveId);
-    List<Mypage> findByReserveId(String reserveId);
 
 }
